@@ -12,6 +12,7 @@ following packages:
 * PHP
 * Git (client)
 * Phing
+* PHP-Unit
 
 Usage
 -----
