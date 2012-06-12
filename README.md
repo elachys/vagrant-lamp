@@ -10,12 +10,14 @@ following packages:
 * Apache
 * MySQL
 * PHP
+* Git (client)
+* Phing
 
 Usage
 -----
 
 ```
-$ git clone https://github.com/egrajeda/vagrant-lamp.git project
+$ git clone https://github.com/elachys/vagrant-lamp.git project
 $ cd project
 $ vagrant box add lucid32 http://files.vagrantup.com/lucid32.box
 $ vagrant up
@@ -31,6 +33,8 @@ config.vm.box = "my-custom-name"
 
 Credits
 -------
+
+This is forked from: https://github.com/egrajeda/vagrant-lamp
 
 All the Chef recipes are taken from [Opscode public cookbooks repository](http://github.com/opscode/cookbooks),
 I just put them in one place, modified some neccesary bits and packaged them
