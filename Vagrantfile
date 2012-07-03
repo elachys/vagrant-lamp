@@ -6,7 +6,7 @@ Vagrant::Config.run do |config|
 
 #  config.vm.boot_mode = :gui
 
-  config.vm.share_folder "vhosts", "/var/www/vhosts", "/Users/chris/dev/vagrant-lamp/vhosts", :nfs => true
+  config.vm.share_folder "vhosts", "/var/www/vhosts", "vhosts", :nfs => true
 
   config.vm.network :hostonly, "10.11.12.13"
 
