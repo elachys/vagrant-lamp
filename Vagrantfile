@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 
 Vagrant::Config.run do |config|
-  config.vm.box = "lucid32"
+  config.vm.box = "precise64"
 
 #  config.vm.boot_mode = :gui
 
