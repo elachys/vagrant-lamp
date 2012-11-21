@@ -20,7 +20,7 @@ Usage
 ```
 $ git clone https://github.com/elachys/vagrant-lamp.git project
 $ cd project
-$ vagrant box add lucid32 http://files.vagrantup.com/lucid32.box
+$ vagrant box add precise64 https://dl.dropbox.com/u/1543052/Boxes/UbuntuServer12.04amd64.box
 $ vagrant up
 ```
 
